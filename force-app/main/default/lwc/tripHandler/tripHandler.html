@@ -1,3 +1,8 @@
 <template>
-    
+    <lightning-card title="Trip list">
+        <div class="slds-card__body_inner">
+            <lightning-datatable key-field="id" data={myTrip} columns={columns}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
 </template>
